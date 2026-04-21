@@ -5,6 +5,8 @@
 ![React](https://img.shields.io/badge/React-19-61DAFB.svg)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue.svg)
 
+![MathViz Cover](./assets/封面.png)
+
 **将数学与科学概念转化为交互式动画可视化页面。**
 
 输入一个概念名称（如 "Simple Harmonic Motion"），AI 自动生成带动画和交互功能的 HTML 页面，支持 KaTeX 数学公式渲染。
@@ -44,11 +46,15 @@ DEFAULT_MODEL=openai:gpt-4o
 
 ## 使用方式
 
+![使用案例 - 输入界面](./assets/案例.png)
+
 1. 在页面输入 **Concept Name**（必填）
 2. 选择 AI 服务商与模型（OpenAI / Anthropic / Google / DeepSeek / 自定义）
 3. 填写 API Key
 4. 点击"生成网页"
 5. 右侧预览，点击"下载 HTML" 导出
+
+![使用案例 - 渲染预览](./assets/案例2.png)
 
 可选参数：Subject、Concept Overview、Design Idea、Key Points、Language。
 
